@@ -11,7 +11,7 @@ editor_options:
 
 Año lectivo: 2024
 
-Régimen de cursada: bimestral (primer cuatrimestre)
+Régimen de cursada: bimestral (primer bimestre)
 
 Profesor a cargo: Agustín Santella y Agustín Nieto
 
