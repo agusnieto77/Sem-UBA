@@ -1,0 +1,298 @@
+---
+output: revealjs::revealjs_presentation
+---
+
+
+# Sem-UNComa
+
+<div style="margin-bottom:20px;">
+</div>
+
+<font size="5">La Sociología y el giro digital: herramientas computacionales para el análisis de la conflictividad en la era del Big Data
+
+</font>
+
+<font size="6">Primer encuentro - Presentación de las herramientas computacionales para el análisis de la conflictividad social
+
+</font>
+
+<div style="margin-bottom:40px;">
+</div>
+
+<font size="5">Dr. Agustín Nieto (INHUS-CONICET/UNMdP)</font>
+
+<font size="3">agustin.nieto77@gmail.com | @agusnieto77</font>
+
+<font size="4">17 de agosto de 2023</font>
+
+<div style="margin-bottom:20px;">
+</div>
+
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/fadecs.png){width=80%}
+
+# Objetivo
+
+<div style="margin-bottom:30px;">
+</div>
+
+<div style="font-family: arial; font-size:24pt; text-align: justify; color: black;">
+
+El objetivo de este seminario es introducirnos en el análisis computacional de la conflictividad social visibilizada en la prensa digital en base al desarrollo de Web Scraping, Text Mining y NLP (Procesameinto de Lenjuage Natural) con lenguajes de programación.
+
+</div>
+
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/matrix.gif){width=70%}
+
+## De palabras a números y viceversa
+
+<div style="margin-bottom:30px;">
+</div>
+
+<div style="font-family: arial; font-size:24pt; text-align: justify; color: black;">
+
+Alcance y límites de la minería de textos para la medición de la conflictividad social: experiencias de investigación en el marco del Observatorio de Conflictividad Social de la UNMdP.
+
+</div>
+
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/num.jpg){width=60%}
+
+# Glosario inicial
+
+<div style="margin-bottom:40px;">
+</div>
+
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/nube.png){width="100%"}
+
+## Giro digital [digital turn] 
+
+<div style="margin-bottom:30px;">
+</div>
+
+::: {style="font-family: arial; font-size:24pt; text-align: justify; color: black;"}
+Según la DFD (Sociedad Alemana de Investigación) el término "giro digital" comprende todos los cambios e impactos relevantes en términos epistémicos, éticos, legales, técnicos, de infraestructura, organizacionales, financieros y también sociales, que surgen del desarrollo y uso de las tecnologías digitales en las ciencias y las humanidades. Por otra parte, el giro digital no es un fenómeno que se restringe a la investigación científica; Las tecnologías y los procesos digitales son, por el contrario, relevantes en todos los ámbitos de la sociedad y la economía.
+:::
+
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/dt2.jpg){width=30%}
+
+## Macrodatos [big data] 
+
+<div style="margin-bottom:30px;">
+</div>
+
+::: {style="font-family: arial; font-size:24pt; text-align: justify; color: black;"}
+Según la gobierno argentino el término "big data" se refiere a una gran cantidad de información que sólo se puede procesar mediante el uso de herramientas digitales y que sirve para responder preguntas a través del análisis de enormes volúmenes de datos. Se trata de un paradigma que se caracteriza por lo que se conoce como las cinco V: Volumen, Velocidad, Variedad, Veracidad, Valor.
+:::
+
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/cincoV.png){width="45%"}
+
+## Ciencias Sociales Computacionales [css] 
+
+<div style="margin-bottom:30px;">
+</div>
+
+::: {style="font-family: arial; font-size:24pt; text-align: justify; color: black;"}
+Según la Sociedad de Ciencias Sociales Computacionales de las Américas (CSSSA) la CSC es una disciplina científica en la que se emplean métodos computacionales, análisis de datos y modelos de simulación de dinámicas sociales para ofrecer nuevos conocimientos sobre los fenómenos sociales más allá de lo que está disponible con los métodos tradicionales de las ciencias sociales.
+:::
+
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/css.jpg){width=55%}
+
+## Humanidades digitales [digital humanities] 
+
+<div style="margin-bottom:30px;">
+</div>
+
+::: {style="font-family: arial; font-size:24pt; text-align: justify; color: black;"}
+Según Susan Greenberg HD es un término nuevo que describe lo que probablemente sea una actividad (o colección de actividades) antigua pero que nos da una imagen o metáfora fresca de ese trabajo, para que pueda ser visto con nuevos ojos. Permite que se hagan nuevas conexiones a través de lo que antes eran campos de interés muy separados, que es la esencia de la imaginación y la creación de nuevos conocimientos. 
+
+Mientras que para Jennifer Giuliano, en su forma más simple, DH es la utilización de computadoras y herramientas computacionales para la exploración, análisis y producción de conocimiento humanístico.
+
+Para ver más de 800 definiciones de HD ir a [what is digital humanities?](https://whatisdigitalhumanities.com/)
+:::
+
+# El giro digital
+
+<div style="margin-bottom:10px;">
+</div>
+
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/textm.jpeg){width=90%}
+
+## El giro digital y la lectura distante
+
+<div style="margin-bottom:40px;">
+</div>
+
+<div style="font-family: arial; font-size:20pt; text-align: justify; color: black;">
+
+El giro digital y su boom de datos forzó diálogos insospechados entre las ciencias comunicacionales y las ciencias sociales y humanas. Las nuevas tecnologías y la proliferación de datos masivos en formato digital trajeron más desorden a los ya desordenados escritorios de científicxs sociales y humanistas (historiadorxs, sociólogxs, politólogxs, antropólogxs, filósofxs, etc., etc., etc.), que el contexto pandémico no hizo más que amplificar con su hipertrofiada virtualidad. 
+
+* ¿Cómo hacer archivo de forma remota? 
+* ¿Se puede hacer etnografía en la virtualidad? 
+* ¿Las encuestas online son confiables? 
+* ¿Son viables las entrevistas por telegram o whatsapp? 
+* ¿Cómo ir a la hemeroteca sin salir de casa? 
+* ¿Cómo leer cientos de periódicos sin hojearlos?
+
+</div>
+
+## Datos: ¿analógicos o digitales?
+
+<div style="margin-bottom:10px;">
+</div>
+
+![](https://estudiosmaritimossociales.org/Graficos/drassana/figura_1.jpg){width=90%}
+
+## ¿Big Data vs. Small Data?
+
+<div style="margin-bottom:40px;">
+</div>
+
+<div style="font-family: arial; font-size:18pt; text-align: justify; color: black;">
+La distinción entre datos pequeños y grandes es reciente. Antes de 2008, los datos rara vez se consideraban en términos de "pequeños" o "grandes". Todos los datos eran, en efecto, lo que ahora a veces se denomina " Small Data", independientemente de su volumen (Kitchin & Lauriault, 2015).
+</div>
+
+![](https://estudiosmaritimossociales.org/Graficos/drassana/tabla_1.png){width=100%}
+
+
+# Programación y ciencias sociales
+
+<div style="margin-bottom:40px;">
+</div>
+
+<div style="font-family: arial; font-size:24pt; text-align: justify; color: black;">
+
+Las relaciones entre programación y ciencias sociales no son nuevas, pero sí más visibles y necesarias que hace unos años. No parece ser conveniente encerrarse en una postura contraria. Estamos cada vez más cerca de la incorporación de técnicas y métodos computacionales en los planes de estudios de las carreras universitarias de grado. Ciencias Sociales Computacionales, Humanidades Digitales, Historia Digital, lectura distante, métodos cualitativos digitales, son nombres cada vez más escuchados en nuestros ámbitos de trabajo. Y lo serán aún más en poco tiempo.
+
+</div>
+
+## Ciencias Sociales Computacionales y programación
+
+<div style="margin-bottom:40px;">
+</div>
+
+<div style="font-family: arial; font-size:24pt; text-align: justify; color: black;">
+
+Dentro de la maraña de epistemologías, problemáticas, metodologías, técnicas, enfoques y lenguajes de programación disponibles para adentrarse en el mundo de las ciencias sociales computacionales y las humanidades digitales, elegimos el camino utilitarista de les autodidactas de tutoriales de youtube. A partir de un set pequeño de problemas concretos a resolver (cómo bajar de internet grandes cantidades de texto, de qué modo darle formato tabular, cómo limpiarlos, procesarlos, explorarlos y visualizarlos sin hacer una lectura cercana de lo recolectado, y no morir en el intento) nos relacionaremos con lenguajes de programación como R, Python, PHP, SQL, etc., etc., para desarrollar ejercicios de web scraping, minería de texto y lectura distante.
+
+</div>
+
+## CATA: Campo del Análisis de Texto Asistido por Computadora
+
+<div style="margin-bottom:40px;">
+</div>
+
+<div style="font-family: arial; font-size:24pt; text-align: justify; color: black;">
+Este campo de análisis incluye métodos y técnicas computacionales relacionados con el análisis de contenido (semi) automatizado y la minería de textos.
+En orden de antigüedad,las tres áreas centrales del CATA son: 1) técnicas que se basan en diccionarios y conteo simple de palabras, 2) aprendizaje automático supervisado, 3) aprendizaje automático no supervisado, y aprendizaje automático semi supervisado.
+CATA puede usarse para dibujar una imagen precisa de los actores, los problemas y la dinámica temporal de los procesos conflictivos (Maerz & Puschmann, 2020).
+</div>
+
+## Enfoques computacionales
+
+<div style="margin-bottom:40px;">
+</div>
+
+<div style="font-family: arial; font-size:20pt; text-align: justify; color: black;">
+Estas técnicas pueden entenderse como existentes en un continuo, desde enfoques que son de naturaleza más deductiva y presuponen un conocimiento de dominio muy detallado y problemas de investigación precisos, como el análisis de diccionario; hasta métodos más inductivos como el aprendizaje no supervisado, más adecuados para la exploración.
+</div>
+
+![](https://estudiosmaritimossociales.org/Graficos/drassana/tecnicas.png){width=100%}
+
+# Análisis computacional de la protesta
+
+<div style="margin-bottom:30px;">
+</div>
+
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/huelgas.png){width=80%}
+
+## ¿Desde cuándo?
+
+<div style="margin-bottom:40px;">
+</div>
+
+<div style="font-family: arial; font-size:22pt; text-align: justify; color: black;">
+
+Desde hace unos pocos años, las humanidades digitales y las ciencias sociales computacionales se propusieron avanzar en la investigación social utilizando el creciente poder de procesamiento informático de las computadoras de escritorio, las innovaciones metodológicas y el incesante crecimiento de la masa de datos para lograr un mejor conocimiento sobre los fenómenos sociales.
+
+</div>
+
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/timeline.png){width=75%}
+
+## ¿Por qué?
+
+<div style="margin-bottom:40px;">
+</div>
+
+<div style="font-family: arial; font-size:21pt; text-align: justify; color: black;">
+
+El conflicto es un fenómeno social fundamental y, por ende, debería ser un tema central en la agenda de investigación de las ciencias sociales y humanas. El giro digital torna a los enfoques computacionales en un elemento central en el campo de estudios de la conflictología. La confluencia de la creciente masa de datos masivos con las cada vez más evolucionadas técnicas procesamiento informático de corpus textuales permiten el modelado de dinámicas de conflicto. En este sentido, uno de los objetivos del curso es introducirnos al uso de algunos de estos enfoques computacionales como vía para mejorar nuestra comprensión de los procesos conflictivos. Otro de los objetivos es propender a poner en marcha un laboratorio nacional de investigación computacional de conflictos.
+
+</div>
+
+## ¿Para qué?
+
+<div style="margin-bottom:40px;">
+</div>
+
+<div style="font-family: arial; font-size:22pt; text-align: justify; color: black;">
+
+El enfoque computacional en las investigaciones sobre procesos conflictivos, puede hacer avanzar al campo de estudios por tres ejes de relevancia: 1) la identificación de los conflictos como procesos espacio-temporales que permite rastrear la interacción de los actores en escenarios de conflicto y sus consecuencias, 2) la disponibilidad de nuevos conjuntos de datos detallados de eventos de conflicto en todas las escalas (local - global) gracias a la digitalización y a las técnicas computacionales para recolectar, almacenar y analizar estos datos, 3) la articulación de distintos enfoques y técnicas computacionales para el análisis de los nuevos datos disponibles.
+
+</div>
+
+## ¿Cómo?
+
+<div style="margin-bottom:40px;">
+</div>
+
+<div style="font-family: arial; font-size:22pt; text-align: justify; color: black;">
+
+Para el análisis de eventos de protesta podemos hacer uso de tres grandes enfoques en lo relativo a las técnicas de clasificación de los textos y su contenido:
+
+* Diccionarios 
+
+* Clasificación Supervisada
+
+* Clasificación No/Semi Supervisada
+
+</div>
+
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/bag.png){width=45%}
+
+# Hacia un laboratorio de análisis computacional de la conflictividad social
+
+<div style="margin-bottom:40px;">
+</div>
+
+<div style="font-family: arial; font-size:22pt; text-align: justify; color: black;">
+
+-   [Activismo barrial en perspectiva histórica: un acercamiento
+    computacional](https://gesmar.estudiosmaritimossociales.org/Informe_GESMar_PI3CET_parte1.html)
+    
+-   [SISMOS - Conflictividad social en Mar del Plata – Informe
+    anual](https://observatoriodeconflictividad.org/conflictividad-social-en-mar-del-plata-informe-anual/)
+    
+-   [El Pulso de la conflictividad en tiempo real](https://observatoriodeconflictividad.org/el-pulso-de-la-conflictividad-en-tiempo-real/)
+
+</div>
+
+# Sem-UNComa
+
+<div style="margin-bottom:100px;">
+</div>
+
+<font size="8">**Continuará...**
+</font>
+
+<div style="margin-bottom:60px;">
+</div>
+
+<font size="5">Dr. Agustín Nieto (INHUS-CONICET/UNMdP)</font>
+
+<font size="3">agustin.nieto77@gmail.com | @agusnieto77</font>
+
+<font size="4">17 de agosto de 2023</font>
+
+<div style="margin-bottom:60px;">
+</div>
+
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/fadecs.png){width=80%}

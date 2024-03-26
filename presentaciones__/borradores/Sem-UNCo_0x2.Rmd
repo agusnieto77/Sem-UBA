@@ -1,0 +1,103 @@
+---
+output: revealjs::revealjs_presentation
+---
+
+
+# Sem-UNComa
+
+<div style="margin-bottom:20px;">
+</div>
+
+<font size="5">La Sociología digital: la perspectiva de Deborah Lupton
+
+</font>
+
+<font size="6">La sociología en el marco del giro digital
+
+</font>
+
+<div style="margin-bottom:40px;">
+</div>
+
+<font size="5">Dr. Agustín Nieto (INHUS-CONICET/UNMdP)</font>
+
+<font size="3">agustin.nieto77@gmail.com | @agusnieto77</font>
+
+<font size="4">07 de septiembre de 2023</font>
+
+<div style="margin-bottom:20px;">
+</div>
+
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/fadecs.png){width=80%}
+
+# ¿Quién es Deborah Lupton?
+
+<div style="margin-bottom:30px;">
+</div>
+
+<div style="font-family: arial; font-size:22pt; text-align: justify; color: black;">
+
+Deborah Lupton ha contribuido al campo de la sociología digital al analizar cómo la tecnología digital moldea nuestras vidas sociales, culturales y personales. Su trabajo se centra en comprender las interacciones humanas en el entorno digital y cómo estas interacciones están en constante evolución en respuesta a las tecnologías emergentes.
+
+</div>
+
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/DLupton.png){width=50%}
+
+## ¿Qué es la sociología digital?
+
+<div style="margin-bottom:30px;">
+</div>
+
+<div style="font-family: arial; font-size:24pt; text-align: justify; color: black;">
+
+"La sociología digital se refiere a la aplicación de conceptos, teorías y enfoques de investigación sociológicos al análisis de los aspectos sociales de las tecnologías digitales en toda su variedad disponible en la actualidad"
+
+</div>
+
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/digitalS.png){width=60%}
+
+# Debates en la investigación social digital
+
+<div style="margin-bottom:40px;">
+</div>
+
+<div style="font-family: arial; font-size:24pt; text-align: justify; color: black;">
+"Los principales debates giran en torno a cuestiones como la desinformación, el modo en que los discursos violentos y las teorías de la conspiración se propagan e instigan a través de las redes sociales y las aplicaciones de mensajería instantánea y, por último, los intereses de mantener el poder corporativo y aumentar los beneficios que hay detrás de todas estas actividades."
+</div>
+
+## La agenda de la sociología digital
+
+<div style="margin-bottom:30px;">
+</div>
+
+<div style="font-family: arial; font-size:24pt; text-align: justify; color: black;">
+1. La construcción de un espacio online para la sociología digital.
+2. la creación de un espacio impreso para la sociología digital.
+3. La construcción de encuentros cara a cara para la sociología digital.
+4. La identificación y difusión de las innovaciones en la práctica sociológica.
+5. El trabajo conceptual de dilucidar el lenguaje de múltiples facetas de la sociología digital.
+6. La creación de una infraestructura para la sociología pública digital.
+7. La elaboración de repertorios metodológicos de sociología digital.
+</div>
+
+# Sem-UNComa
+
+<div style="margin-bottom:100px;">
+</div>
+
+<font size="8">**Continuará...**
+</font>
+
+<div style="margin-bottom:60px;">
+</div>
+
+<font size="5">Dr. Agustín Nieto (INHUS-CONICET/UNMdP)</font>
+
+<font size="3">agustin.nieto77@gmail.com | @agusnieto77</font>
+
+<font size="4">07 de septiemnbre de 2023</font>
+
+<div style="margin-bottom:60px;">
+</div>
+
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/fadecs.png){width=80%}
