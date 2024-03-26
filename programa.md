@@ -7,22 +7,21 @@ editor_options:
 
 # Programa del Seminario Opcional
 
-**LA SOCIOLOGÍA Y EL GIRO DIGITAL: HERRAMIENTAS
-COMPUTACIONALES PARA EL ANÁLISIS DE LA CONFLICTIVIDAD EN LA ERA DEL BIG DATA**
+**INTRODUCCIÓN A LA PROGRAMACIÓN EN R PARA EL ANÁLISIS DE DATOS EN CIENCIAS SOCIALES (CON ORIENTACIÓN AL ESTUDIO DE CONFLICTOS Y MOVIMIENTOS SOCIALES)**
 
-Año lectivo: 2023
+Año lectivo: 2024
 
-Régimen de cursada: Cuatrimestral (segundo cuatrimestre)
+Régimen de cursada: bimestral (primer cuatrimestre)
 
-Profesor a cargo: Agustín Nieto
+Profesor a cargo: Agustín Santella y Agustín Nieto
 
-Carga horaria: 64
+Carga horaria: 32
 
-Período: agosto -- diciembre
+Período: abril -- mayo
 
-Número de encuentros: 16
+Número de encuentros: 8
 
-Horario: jueves 17-21 hs.
+Horario: jueves 14-18 hs.
 [modalidad: virtual]
 
 ##### FUNDAMENTACIÓN Y OBJETIVOS
