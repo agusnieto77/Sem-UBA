@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
-title: Sem-UNComa
-description: La Sociología y el giro digital - Herramientas computacionales para el análisis de la conflictividad en la era del Big Data
-logo: https://raw.githubusercontent.com/agusnieto77/Sem-UNComa/master/seminario.png
+title: Sem-UBA
+description: Introducción a la programación en R para el análisis de datos en ciencias sociales (con orientación al estudio de conflictos y movimientos sociales)
+logo: https://raw.githubusercontent.com/agusnieto77/Sem-UBA/master/seminario.png
 favicon: img/favicon.ico
 show_downloads: false

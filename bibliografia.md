@@ -41,7 +41,7 @@ lecturas](https://docs.google.com/spreadsheets/d/1daRYQMJXmObIAJEE3GKJkB89YuvCS2
     metodológica y big data». PRACS: Revista Eletrônica de Humanidades
     do Curso de Ciências Sociais da UNIFAP 14, nº 2 (26 de febrero de
     2022): 157-67
-    ([link](https://github.com/agusnieto77/Sem-UNComa/raw/master/bibliograf%C3%ADa/Piovani_Parra.pdf "Triangulación metodológica y big data")).
+    ([link](https://github.com/agusnieto77/Sem-UBA/raw/master/bibliograf%C3%ADa/Piovani_Parra.pdf "Triangulación metodológica y big data")).
 
 ## Unidad II
 
@@ -110,7 +110,7 @@ lecturas](https://docs.google.com/spreadsheets/d/1daRYQMJXmObIAJEE3GKJkB89YuvCS2
 
 -   Moretti, Franco (2015) El matadero de la literatura. *Lectura
     distant*e, FCE, Buenos Aires
-    ([link](https://github.com/agusnieto77/Sem-UNComa/raw/master/bibliograf%C3%ADa/Moretti%20-%20El%20matadero%20de%20la%20literatura%20III.pdf "El matadero de la literatura")).
+    ([link](https://github.com/agusnieto77/Sem-UBA/raw/master/bibliograf%C3%ADa/Moretti%20-%20El%20matadero%20de%20la%20literatura%20III.pdf "El matadero de la literatura")).
 
 -   Mueller, Martin (2012) Scalable Reading. *Scalablereading*
     ([link](https://scalablereading.northwestern.edu/?page_id=22 "Scalable Reading")).
@@ -140,4 +140,4 @@ lecturas](https://docs.google.com/spreadsheets/d/1daRYQMJXmObIAJEE3GKJkB89YuvCS2
 
 -   Wickham, Hadley (2016) *ggplot2: Elegant graphics for data
     analysis*. Springer-Verlag New York
-    ([link](https://github.com/agusnieto77/Sem-UNComa/raw/master/bibliograf%C3%ADa/Hadley%20Wickham%20-%20ggplot2_%20Elegant%20Graphics%20for%20Data%20Analysis.pdf "ggplot2")).
+    ([link](https://github.com/agusnieto77/Sem-UBA/raw/master/bibliograf%C3%ADa/Hadley%20Wickham%20-%20ggplot2_%20Elegant%20Graphics%20for%20Data%20Analysis.pdf "ggplot2")).
