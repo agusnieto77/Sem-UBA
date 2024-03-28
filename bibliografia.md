@@ -18,7 +18,7 @@ lecturas](https://docs.google.com/spreadsheets/d/1daRYQMJXmObIAJEE3GKJkB89YuvCS2
 
 -   Putnam, Lara (2016) The Transnational and the Text-searchable:
     Digitized Sources and the Shadows they Cast, *American Historical
-    Review*, vol. 121, 2, 2016
+    Review*, vol. 121, 2
     ([link](https://academic.oup.com/ahr/article/121/2/377/2581842 "The Transnational and the Text-searchable")).
 
 -   Tilly, Charles (1973) Computers in Historical Analysis. *Computers
