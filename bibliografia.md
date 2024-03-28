@@ -14,7 +14,7 @@ lecturas](https://docs.google.com/spreadsheets/d/1daRYQMJXmObIAJEE3GKJkB89YuvCS2
 
 -   Prescott, A. (2014) I’d Rather be a Librarian. *Cultural and Social
     History*, 11(3), 335–341
-    ([link](https://sci-hub.se/https://doi.org/10.2752/147800414X13983595303192 "I’d Rather be a Librarian")).
+    ([link](https://github.com/agusnieto77/Sem-UBA/raw/master/bibliograf%C3%ADa/prescott2014.pdf "I’d Rather be a Librarian")).
 
 -   Putnam, Lara (2016) The Transnational and the Text-searchable:
     Digitized Sources and the Shadows they Cast, *American Historical
@@ -23,7 +23,7 @@ lecturas](https://docs.google.com/spreadsheets/d/1daRYQMJXmObIAJEE3GKJkB89YuvCS2
 
 -   Tilly, Charles (1973) Computers in Historical Analysis. *Computers
     and the Humanities*, vol. 7, no. 6, pp. 323–35
-    ([link](https://sci-hub.se/https://www.jstor.org/stable/30199589 "Computers in Historical Analysis")).
+    ([link](https://github.com/agusnieto77/Sem-UBA/raw/master/bibliograf%C3%ADa/tilly_computers_in_historical_analysis.pdf "Computers in Historical Analysis")).
 
 ## Unidad II
 
@@ -66,6 +66,10 @@ lecturas](https://docs.google.com/spreadsheets/d/1daRYQMJXmObIAJEE3GKJkB89YuvCS2
 
 ### Obligatoria
 
+-   Caren, N., Andrews, K. T., & Ray, R. (2023). Extracting protest
+    events from newspaper articles with ChatGPT. *SocArXiv Papers*
+    ([link](https://osf.io/preprints/socarxiv/dvht7 "Extracting protest events")).
+
 -   King, Brayden & Nelson, Laura (2023) Beyond Protests: Using
     Computational Text Analysis to Explore a Greater Variety of Social
     Movement Activities. *Methodological Advances in Research on Social
@@ -82,17 +86,13 @@ lecturas](https://docs.google.com/spreadsheets/d/1daRYQMJXmObIAJEE3GKJkB89YuvCS2
     Sociol.* 8:1145038
     ([link](https://www.frontiersin.org/articles/10.3389/fsoc.2023.1145038/full "To scrape or not to scrape")).
 
--   Caren, N., Andrews, K. T., & Ray, R. (2023). Extracting protest
-    events from newspaper articles with ChatGPT. *SocArXiv Papers*
-    ([link](https://osf.io/preprints/socarxiv/dvht7 "Extracting protest events")).
-
 ## Unidad IV
 
 ### Obligatoria
 
 -   Donig, S., Eckl, M., Gassner, S., & Rehbein, M. (2023). Web archive
     analytics: Blind spots and silences in distant readings of the
-    archived web. Digital Scholarship in the Humanities
+    archived web. *Digital Scholarship in the Humanities*
     ([link](https://doi.org/10.1093/llc/fqad014 "Web archive analytics")).
 
 -   Melo, Jairo (2017) Lectura distante, fragmentada y colaborativa en

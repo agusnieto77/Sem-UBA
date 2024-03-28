@@ -13,13 +13,13 @@ output: md_document
 -   Lupton D., Fuentes A. y García Mingo E. (2023) Presente y futuro de la sociología digital: Entrevista a Deborah Lupton. *Teknokultura. Revista de Cultura Digital y Movimientos Sociales*, 20(2), 239-242 ([link](https://revistas.ucm.es/index.php/TEKN/article/view/87181/4564456566105 "Presente y futuro de la sociología digital")).
 
 -   Prescott, A. (2014) I’d Rather be a Librarian. *Cultural and Social History*, 11(3), 335–341
-([link](https://sci-hub.se/https://doi.org/10.2752/147800414X13983595303192 "I’d Rather be a Librarian")).
+([link](https://github.com/agusnieto77/Sem-UBA/raw/master/bibliograf%C3%ADa/prescott2014.pdf "I’d Rather be a Librarian")).
 
 -   Putnam, Lara (2016) The Transnational and the Text-searchable: Digitized Sources and the Shadows they Cast, *American Historical Review*, vol. 121, 2
 ([link](https://academic.oup.com/ahr/article/121/2/377/2581842 "The Transnational and the Text-searchable")).
 
 -   Tilly, Charles (1973) Computers in Historical Analysis. *Computers and the Humanities*, vol. 7, no. 6,  pp. 323–35
-([link](https://sci-hub.se/https://www.jstor.org/stable/30199589 "Computers in Historical Analysis")).
+([link](https://github.com/agusnieto77/Sem-UBA/raw/master/bibliograf%C3%ADa/tilly_computers_in_historical_analysis.pdf "Computers in Historical Analysis")).
 
 ## Unidad II
 
@@ -42,20 +42,20 @@ output: md_document
 
 ### Obligatoria
 
+-   Caren, N., Andrews, K. T., & Ray, R. (2023). Extracting protest events from newspaper articles with ChatGPT. *SocArXiv Papers*
+([link](https://osf.io/preprints/socarxiv/dvht7 "Extracting protest events")).
+
 -   King, Brayden & Nelson, Laura (2023) Beyond Protests: Using Computational Text Analysis to Explore a Greater Variety of Social Movement Activities. *Methodological Advances in Research on Social Movements, Conflict, and Change*, Volume 47, 13–35 ([link](https://www.lauraknelson.com/publication/beyond-protests/beyond-protests.pdf "Beyond Protests")).
 
 -   Poudel, Amrit & Weninger, Tim (2024) Navigating the Post-API Dilemma Search Engine Results Pages Present a Biased View of Social Media Data. *arXiv* ([link](https://arxiv.org/html/2401.15479v2 "Navigating the Post-API Dilemma")).
 
 -   Trezza D. (2023) To scrape or not to scrape, this is dilemma. The post-API scenario and implications on digital research. *Front. Sociol.* 8:1145038 ([link](https://www.frontiersin.org/articles/10.3389/fsoc.2023.1145038/full "To scrape or not to scrape")).
 
--   Caren, N., Andrews, K. T., & Ray, R. (2023). Extracting protest events from newspaper articles with ChatGPT. *SocArXiv Papers*
-([link](https://osf.io/preprints/socarxiv/dvht7 "Extracting protest events")).
-
 ## Unidad IV
 
 ### Obligatoria
 
--   Donig, S., Eckl, M., Gassner, S., & Rehbein, M. (2023). Web archive analytics: Blind spots and silences in distant readings of the archived web. Digital Scholarship in the Humanities ([link](https://doi.org/10.1093/llc/fqad014 "Web archive analytics")).
+-   Donig, S., Eckl, M., Gassner, S., & Rehbein, M. (2023). Web archive analytics: Blind spots and silences in distant readings of the archived web. *Digital Scholarship in the Humanities* ([link](https://doi.org/10.1093/llc/fqad014 "Web archive analytics")).
 
 -   Melo, Jairo (2017) Lectura distante, fragmentada y colaborativa en el archivo infinito. *Relaciones: Estudios de historia y sociedad*, 38,149, 169-89 ([link](https://www.scielo.org.mx/pdf/rz/v38n149/2448-7554-rz-38-149-00169.pdf "Lectura distante, fragmentada y colaborativa en el archivo infinito")).
 
