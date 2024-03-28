@@ -3,13 +3,12 @@ output: revealjs::revealjs_presentation
 ---
 
 
-# Sem-UNComa
+# Sem-UBA
 
 <div style="margin-bottom:20px;">
 </div>
 
-<font size="5">La Sociología y el giro digital: herramientas computacionales para el análisis de la conflictividad en la era del Big Data
-
+<font size="5">Introducción a la programación en R para el análisis de datos en ciencias sociales (con orientación al estudio de conflictos y movimientos sociales)
 </font>
 
 <font size="6">Primer encuentro - Presentación de las herramientas computacionales para el análisis de la conflictividad social
@@ -19,16 +18,16 @@ output: revealjs::revealjs_presentation
 <div style="margin-bottom:40px;">
 </div>
 
+<font size="5">Dr. Agustín Santella (IIGG-UBA/CONICET)</font>
+
 <font size="5">Dr. Agustín Nieto (INHUS-CONICET/UNMdP)</font>
 
-<font size="3">agustin.nieto77@gmail.com | @agusnieto77</font>
-
-<font size="4">17 de agosto de 2023</font>
+<font size="4">5 de abril de 2024</font>
 
 <div style="margin-bottom:20px;">
 </div>
 
-![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/fadecs.png){width=80%}
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UBA/images/uba_sociales.png){width=30%}
 
 # Objetivo
 
@@ -41,7 +40,7 @@ El objetivo de este seminario es introducirnos en el análisis computacional de 
 
 </div>
 
-![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/matrix.gif){width=70%}
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UBA/images/matrix.gif){width=70%}
 
 ## De palabras a números y viceversa
 
@@ -50,18 +49,18 @@ El objetivo de este seminario es introducirnos en el análisis computacional de 
 
 <div style="font-family: arial; font-size:24pt; text-align: justify; color: black;">
 
-Alcance y límites de la minería de textos para la medición de la conflictividad social: experiencias de investigación en el marco del Observatorio de Conflictividad Social de la UNMdP.
+Alcance y límites de la minería de textos para la medición de la conflictividad social: experiencias de investigación en el marco del Instituto de Investigación Gino Germani de la UBA y del Observatorio de Conflictividad Social de la UNMdP.
 
 </div>
 
-![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/num.jpg){width=60%}
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UBA/images/num.jpg){width=60%}
 
 # Glosario inicial
 
 <div style="margin-bottom:40px;">
 </div>
 
-![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/nube.png){width="100%"}
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UBA/images/nube.png){width="100%"}
 
 ## Giro digital [digital turn] 
 
@@ -72,7 +71,7 @@ Alcance y límites de la minería de textos para la medición de la conflictivid
 Según la DFD (Sociedad Alemana de Investigación) el término "giro digital" comprende todos los cambios e impactos relevantes en términos epistémicos, éticos, legales, técnicos, de infraestructura, organizacionales, financieros y también sociales, que surgen del desarrollo y uso de las tecnologías digitales en las ciencias y las humanidades. Por otra parte, el giro digital no es un fenómeno que se restringe a la investigación científica; Las tecnologías y los procesos digitales son, por el contrario, relevantes en todos los ámbitos de la sociedad y la economía.
 :::
 
-![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/dt2.jpg){width=30%}
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UBA/images/dt2.jpg){width=30%}
 
 ## Macrodatos [big data] 
 
@@ -83,7 +82,7 @@ Según la DFD (Sociedad Alemana de Investigación) el término "giro digital" co
 Según la gobierno argentino el término "big data" se refiere a una gran cantidad de información que sólo se puede procesar mediante el uso de herramientas digitales y que sirve para responder preguntas a través del análisis de enormes volúmenes de datos. Se trata de un paradigma que se caracteriza por lo que se conoce como las cinco V: Volumen, Velocidad, Variedad, Veracidad, Valor.
 :::
 
-![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/cincoV.png){width="45%"}
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UBA/images/cincoV.png){width="45%"}
 
 ## Ciencias Sociales Computacionales [css] 
 
@@ -94,7 +93,7 @@ Según la gobierno argentino el término "big data" se refiere a una gran cantid
 Según la Sociedad de Ciencias Sociales Computacionales de las Américas (CSSSA) la CSC es una disciplina científica en la que se emplean métodos computacionales, análisis de datos y modelos de simulación de dinámicas sociales para ofrecer nuevos conocimientos sobre los fenómenos sociales más allá de lo que está disponible con los métodos tradicionales de las ciencias sociales.
 :::
 
-![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/css.jpg){width=55%}
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UBA/images/css.jpg){width=55%}
 
 ## Humanidades digitales [digital humanities] 
 
@@ -114,7 +113,7 @@ Para ver más de 800 definiciones de HD ir a [what is digital humanities?](https
 <div style="margin-bottom:10px;">
 </div>
 
-![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/textm.jpeg){width=90%}
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UBA/images/textm.jpeg){width=90%}
 
 ## El giro digital y la lectura distante
 
@@ -123,7 +122,7 @@ Para ver más de 800 definiciones de HD ir a [what is digital humanities?](https
 
 <div style="font-family: arial; font-size:20pt; text-align: justify; color: black;">
 
-El giro digital y su boom de datos forzó diálogos insospechados entre las ciencias comunicacionales y las ciencias sociales y humanas. Las nuevas tecnologías y la proliferación de datos masivos en formato digital trajeron más desorden a los ya desordenados escritorios de científicxs sociales y humanistas (historiadorxs, sociólogxs, politólogxs, antropólogxs, filósofxs, etc., etc., etc.), que el contexto pandémico no hizo más que amplificar con su hipertrofiada virtualidad. 
+El giro digital y su boom de datos forzó diálogos insospechados entre las ciencias computacionales y las ciencias sociales y humanas. Las nuevas tecnologías y la proliferación de datos masivos en formato digital trajeron más desorden a los ya desordenados escritorios de científicxs sociales y humanistas (historiadorxs, sociólogxs, politólogxs, antropólogxs, filósofxs, etc., etc., etc.), que el contexto pandémico no hizo más que amplificar con su hipertrofiada virtualidad. 
 
 * ¿Cómo hacer archivo de forma remota? 
 * ¿Se puede hacer etnografía en la virtualidad? 
@@ -139,7 +138,7 @@ El giro digital y su boom de datos forzó diálogos insospechados entre las cien
 <div style="margin-bottom:10px;">
 </div>
 
-![](https://estudiosmaritimossociales.org/Graficos/drassana/figura_1.jpg){width=90%}
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UBA/images/grafico.jpeg){width=90%}
 
 ## ¿Big Data vs. Small Data?
 
@@ -150,7 +149,7 @@ El giro digital y su boom de datos forzó diálogos insospechados entre las cien
 La distinción entre datos pequeños y grandes es reciente. Antes de 2008, los datos rara vez se consideraban en términos de "pequeños" o "grandes". Todos los datos eran, en efecto, lo que ahora a veces se denomina " Small Data", independientemente de su volumen (Kitchin & Lauriault, 2015).
 </div>
 
-![](https://estudiosmaritimossociales.org/Graficos/drassana/tabla_1.png){width=100%}
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UBA/images/tabla_1.png){width=100%}
 
 
 # Programación y ciencias sociales
@@ -195,14 +194,14 @@ CATA puede usarse para dibujar una imagen precisa de los actores, los problemas 
 Estas técnicas pueden entenderse como existentes en un continuo, desde enfoques que son de naturaleza más deductiva y presuponen un conocimiento de dominio muy detallado y problemas de investigación precisos, como el análisis de diccionario; hasta métodos más inductivos como el aprendizaje no supervisado, más adecuados para la exploración.
 </div>
 
-![](https://estudiosmaritimossociales.org/Graficos/drassana/tecnicas.png){width=100%}
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UBA/images/tecnicas.png){width=100%}
 
 # Análisis computacional de la protesta
 
 <div style="margin-bottom:30px;">
 </div>
 
-![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/huelgas.png){width=80%}
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UBA/images/huelgas.png){width=80%}
 
 ## ¿Desde cuándo?
 
@@ -215,7 +214,7 @@ Desde hace unos pocos años, las humanidades digitales y las ciencias sociales c
 
 </div>
 
-![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/timeline.png){width=75%}
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UBA/images/timeline.png){width=75%}
 
 ## ¿Por qué?
 
@@ -275,7 +274,7 @@ Para el análisis de eventos de protesta podemos hacer uso de tres grandes enfoq
 
 </div>
 
-# Sem-UNComa
+# Sem-UBA
 
 <div style="margin-bottom:100px;">
 </div>
@@ -286,13 +285,13 @@ Para el análisis de eventos de protesta podemos hacer uso de tres grandes enfoq
 <div style="margin-bottom:60px;">
 </div>
 
+<font size="5">Dr. Agustín Santella (IIGG-UBA/CONICET)</font>
+
 <font size="5">Dr. Agustín Nieto (INHUS-CONICET/UNMdP)</font>
 
-<font size="3">agustin.nieto77@gmail.com | @agusnieto77</font>
-
-<font size="4">17 de agosto de 2023</font>
+<font size="4">5 de abril de 2024</font>
 
 <div style="margin-bottom:60px;">
 </div>
 
-![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/fadecs.png){width=80%}
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UBA/images/uba_sociales.png){width=30%}
