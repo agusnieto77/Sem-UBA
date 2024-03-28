@@ -11,36 +11,14 @@ lecturas](https://docs.google.com/spreadsheets/d/1daRYQMJXmObIAJEE3GKJkB89YuvCS2
     Humanities, vol. 7, no. 6, pp. 323–35.
     ([link](https://sci-hub.se/https://www.jstor.org/stable/30199589 "Computers in Historical Analysis")).
 
--   Cabrera-Álvarez, P. (2022). Survey Research in Times of Big Data.
-    Empiria. Revista De metodología De Ciencias Sociales, (53), 31–51
-    ([link](https://revistas.uned.es/index.php/empiria/article/view/32611/24822 "Survey Research in Times of Big Data")).
-
--   García Mingo E. y Sádaba Rodríguez I. (2023). Análisis de la
-    realidad social digital: Hacia una metodología de la investigación
-    social digital. *Teknokultura. Revista de Cultura Digital y
-    Movimientos Sociales*, 20(2), 239-242
-    ([link](https://revistas.ucm.es/index.php/TEKN/article/view/88460/4564456566089 "Análisis de la realidad social digital: Hacia una metodología de la investigación social digital")).
-
 -   Gualda, Estrella (2022) Social big data, sociología y ciencias
     sociales computacionales. *Empiria: Revista de metodología de
     ciencias sociales*, 53, 147-177
     ([link](https://revistas.uned.es/index.php/empiria/article/view/32631/24825 "Social big data, sociología y ciencias sociales computacionales")).
 
--   Lupton D., Fuentes A. y García Mingo E. (2023). Presente y futuro de
-    la sociología digital: Entrevista a Deborah Lupton. *Teknokultura.
-    Revista de Cultura Digital y Movimientos Sociales*, 20(2), 239-242
-    ([link](https://revistas.ucm.es/index.php/TEKN/article/view/87181/4564456566105 "Presente y futuro de la sociología digital: Entrevista a Deborah Lupton")).
-
--   Pereira, Isabel Quintas. «La estadística computacional: una
-    propuesta didáctica». Política y Cultura, nº 53 (29 de junio de
-    2020): 183-204
-    ([link](https://www.redalyc.org/journal/267/26763954009/html/ "La estadística computacional")).
-
--   Piovani, Juan Ignacio, y Paolo Parra Saiani. «Triangulación
-    metodológica y big data». PRACS: Revista Eletrônica de Humanidades
-    do Curso de Ciências Sociais da UNIFAP 14, nº 2 (26 de febrero de
-    2022): 157-67
-    ([link](https://github.com/agusnieto77/Sem-UBA/raw/master/bibliograf%C3%ADa/Piovani_Parra.pdf "Triangulación metodológica y big data")).
+-   Putnam, Lara (2016) The Transnational and the Text-searchable:
+    Digitized Sources and the Shadows they Cast, *American Historical
+    Review*, vol. 121, 2, 2016.
 
 ## Unidad II
 
@@ -118,6 +96,11 @@ lecturas](https://docs.google.com/spreadsheets/d/1daRYQMJXmObIAJEE3GKJkB89YuvCS2
 
 ### Obligatoria
 
+-   Cairo, Alberto (2017) Visualización de datos: una imagen puede valer
+    más que mil números, pero no siempre más que mil palabras.
+    *Profesional de la información* 26, 6, 1025-28
+    ([link](https://doi.org/10.3145/epi.2017.nov.02 "Visualización de datos")).
+
 -   Moretti, Franco (2023) Ver y no ver. Sobre la visualización de los
     datos en las disciplinas humanísticas. *Falso movimiento*, 65-101
     ([link](https://doi.org/10.51829/Drassana.28.650 "Ver y no ver")).
@@ -125,3 +108,8 @@ lecturas](https://docs.google.com/spreadsheets/d/1daRYQMJXmObIAJEE3GKJkB89YuvCS2
 -   Rosati, German (2020) La visualización de datos es trabajo esencial.
     Factor~data (blog), *Medium*
     ([link](https://medium.com/factor-data/la-visualizaci%C3%B3n-de-datos-es-trabajo-esencial-ea7acc20b5d3 "La visualización de datos es trabajo esencial")).
+
+-   Tufte, Edward (2001) Estética y Técnica en el Diseño de Gráficos de
+    Datos. *La Representación Visual de Información Cuantitativa*,
+    177-190
+    ([link](https://medium.com/factor-data/la-visualizaci%C3%B3n-de-datos-es-trabajo-esencial-ea7acc20b5d3 "Estética y Técnica en el Diseño de Gráficos de Datos")).
