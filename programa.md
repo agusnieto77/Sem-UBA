@@ -5,7 +5,7 @@ editor_options:
     wrap: sentence
 ---
 
-# Programa del Seminario Opcional
+# Programa del Seminario general
 
 **INTRODUCCIÓN A LA PROGRAMACIÓN EN R PARA EL ANÁLISIS DE DATOS EN CIENCIAS SOCIALES (CON ORIENTACIÓN AL ESTUDIO DE CONFLICTOS Y MOVIMIENTOS SOCIALES)**
 
@@ -86,16 +86,14 @@ Organización del directorio de trabajo.
 Creación de proyectos.
 Vinculación con github.
 
--   Aragona, B.
-    (2022).
-    Tipos de big data y análisis sociológico: usos, críticas y problemas éticos.
-    Empiria.
-    Revista De metodología De Ciencias Sociales, (53), 15-30.
+-   Tilly, C. (1973)
+    Computers in Historical Analysis.
+    Computers and the Humanities, vol. 7, no. 6, 323–35.
 
 -   Cabrera-Álvarez, P. (2022).
     Survey Research in Times of Big Data.
     Empiria.
-    Revista De metodología De Ciencias Sociales, (53), 31--51.
+    Revista De metodología De Ciencias Sociales, (53), 31-51.
     
 -   García Mingo E. y Sádaba Rodríguez I. (2023). Análisis de la
     realidad social digital: Hacia una metodología de la investigación

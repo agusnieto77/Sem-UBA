@@ -7,10 +7,9 @@ lecturas](https://docs.google.com/spreadsheets/d/1daRYQMJXmObIAJEE3GKJkB89YuvCS2
 
 ### Obligatoria
 
--   Aragona, B. (2022). Tipos de big data y análisis sociológico: usos,
-    críticas y problemas éticos. Empiria. Revista De metodología De
-    Ciencias Sociales, (53), 15–30
-    ([link](https://revistas.uned.es/index.php/empiria/article/view/32610/24783 "Tipos de big data y análisis sociológico")).
+-   Tilly, C. (1973) Computers in Historical Analysis. Computers and the
+    Humanities, vol. 7, no. 6, pp. 323–35.
+    ([link](https://sci-hub.se/https://www.jstor.org/stable/30199589 "Computers in Historical Analysis")).
 
 -   Cabrera-Álvarez, P. (2022). Survey Research in Times of Big Data.
     Empiria. Revista De metodología De Ciencias Sociales, (53), 31–51
