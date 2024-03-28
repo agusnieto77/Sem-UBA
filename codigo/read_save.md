@@ -2,7 +2,7 @@
 
 Importamos la base de datos ‘df.csv’ con la función read.csv()
 
-    df <- read.csv('https://observatoriodeconflictividad.org/df.csv')
+    df <- read.csv('https://raw.githubusercontent.com/agusnieto77/Sem-UBA/master/datos/df.csv')
     head(df)
 
     ##    apellido nombre sexo edad nacionalidad dia mes anio
