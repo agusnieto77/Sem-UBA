@@ -42,11 +42,11 @@ lecturas](https://docs.google.com/spreadsheets/d/1daRYQMJXmObIAJEE3GKJkB89YuvCS2
     ([link](https://revistas.uned.es/index.php/empiria/article/view/32614/25534 "Análisis de la dinámica, la estructura y el contenido de los mensajes de Twitter")).
 
 -   Franzosi, Roberto (2004) From words to numbers, selección
-    ([link](https://sci-hub.se/https://doi.org/10.1007/s11135-020-01067-6 "From words to numbers")).
+    ([link](https://github.com/agusnieto77/Sem-UBA/raw/master/bibliograf%C3%ADa/franzosi.pdf "From words to numbers")).
 
 -   Franzosi, Roberto (2020) What’s in a text? Bridging the gap between
     quality and quantity in the digital era. Quality & Quantity, 1-28
-    ([link](https://sci-hub.se/https://doi.org/10.1007/s11135-020-01067-6 "What's in a text?")).
+    ([link](https://github.com/agusnieto77/Sem-UBA/raw/master/bibliograf%C3%ADa/r_franzosi.pdf "What's in a text?")).
 
 -   Nieto, Agustín, Silvana Ferreyra y Emiliano Calomarde (2022) La
     pandemia en el pago chico. Agenda mediática y comentarios de
