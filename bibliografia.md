@@ -7,18 +7,23 @@ lecturas](https://docs.google.com/spreadsheets/d/1daRYQMJXmObIAJEE3GKJkB89YuvCS2
 
 ### Obligatoria
 
--   Tilly, C. (1973) Computers in Historical Analysis. Computers and the
-    Humanities, vol. 7, no. 6, pp. 323–35.
-    ([link](https://sci-hub.se/https://www.jstor.org/stable/30199589 "Computers in Historical Analysis")).
+-   Lupton D., Fuentes A. y García Mingo E. (2023) Presente y futuro de
+    la sociología digital: Entrevista a Deborah Lupton. *Teknokultura.
+    Revista de Cultura Digital y Movimientos Sociales*, 20(2), 239-242
+    ([link](https://revistas.ucm.es/index.php/TEKN/article/view/87181/4564456566105 "Presente y futuro de la sociología digital")).
 
--   Gualda, Estrella (2022) Social big data, sociología y ciencias
-    sociales computacionales. *Empiria: Revista de metodología de
-    ciencias sociales*, 53, 147-177
-    ([link](https://revistas.uned.es/index.php/empiria/article/view/32631/24825 "Social big data, sociología y ciencias sociales computacionales")).
+-   Prescott, A. (2014) I’d Rather be a Librarian. *Cultural and Social
+    History*, 11(3), 335–341
+    ([link](https://sci-hub.se/https://doi.org/10.2752/147800414X13983595303192 "I’d Rather be a Librarian")).
 
 -   Putnam, Lara (2016) The Transnational and the Text-searchable:
     Digitized Sources and the Shadows they Cast, *American Historical
-    Review*, vol. 121, 2, 2016.
+    Review*, vol. 121, 2, 2016
+    ([link](https://academic.oup.com/ahr/article/121/2/377/2581842 "The Transnational and the Text-searchable")).
+
+-   Tilly, Charles (1973) Computers in Historical Analysis. *Computers
+    and the Humanities*, vol. 7, no. 6, pp. 323–35
+    ([link](https://sci-hub.se/https://www.jstor.org/stable/30199589 "Computers in Historical Analysis")).
 
 ## Unidad II
 
