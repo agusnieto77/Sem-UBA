@@ -41,7 +41,8 @@ lecturas](https://docs.google.com/spreadsheets/d/1daRYQMJXmObIAJEE3GKJkB89YuvCS2
     metodología De Ciencias Sociales, (53), 89–119)
     ([link](https://revistas.uned.es/index.php/empiria/article/view/32614/25534 "Análisis de la dinámica, la estructura y el contenido de los mensajes de Twitter")).
 
--   Franzosi, Roberto (2004) From words to numbers, selección
+-   Franzosi, Roberto (2004) *From words to numbers*, selección
+    (pp.28-43, 237-274)
     ([link](https://github.com/agusnieto77/Sem-UBA/raw/master/bibliograf%C3%ADa/franzosi.pdf "From words to numbers")).
 
 -   Franzosi, Roberto (2020) What’s in a text? Bridging the gap between
@@ -118,7 +119,7 @@ lecturas](https://docs.google.com/spreadsheets/d/1daRYQMJXmObIAJEE3GKJkB89YuvCS2
 
 -   Moretti, Franco (2023) Ver y no ver. Sobre la visualización de los
     datos en las disciplinas humanísticas. *Falso movimiento*, 65-101
-    ([link](https://doi.org/10.51829/Drassana.28.650 "Ver y no ver")).
+    ([link](https://github.com/agusnieto77/Sem-UBA/raw/master/bibliograf%C3%ADa/moretti.pdf "Ver y no ver")).
 
 -   Rosati, German (2020) La visualización de datos es trabajo esencial.
     Factor~data (blog), *Medium*
@@ -127,4 +128,4 @@ lecturas](https://docs.google.com/spreadsheets/d/1daRYQMJXmObIAJEE3GKJkB89YuvCS2
 -   Tufte, Edward (2001) Estética y Técnica en el Diseño de Gráficos de
     Datos. *La Representación Visual de Información Cuantitativa*,
     177-190
-    ([link](https://medium.com/factor-data/la-visualizaci%C3%B3n-de-datos-es-trabajo-esencial-ea7acc20b5d3 "Estética y Técnica en el Diseño de Gráficos de Datos")).
+    ([link](https://github.com/agusnieto77/Sem-UBA/raw/master/bibliograf%C3%ADa/tufte.pdf "Estética y Técnica en el Diseño de Gráficos de Datos")).
