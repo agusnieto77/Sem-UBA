@@ -217,4 +217,4 @@ Los textos de corte más teórico permitirán reflexionar sobre los alcances de 
 
 Quienes realicen el seminario deberán cumplir con un 75% de asistencia y luego entregar un condigo (en desarrollo) que permita ejecutar alguna acción de procesamiento de corpus de texto, necesario para su investigación de tesis, y un ensayo breve de tipo expositivo en el cual se reflexiones sobre la experiencia de trabajo con R y se refiera a la utilidad de las técnicas de las ciencias sociales computacionales y humanidades digitales.
 El ensayo no puede superar las 10 páginas.
-Se establecerá un plazo de tres meses para la entrega del trabajo final (fecha límite: 31-08-2024).
+<!--Se establecerá un plazo de tres meses para la entrega del trabajo final (fecha límite: 31-08-2024).-->
