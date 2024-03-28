@@ -5,7 +5,7 @@ editor_options:
     wrap: sentence
 ---
 
-# Programa del Seminario general
+# Programa del Seminario General
 
 **INTRODUCCIÓN A LA PROGRAMACIÓN EN R PARA EL ANÁLISIS DE DATOS EN CIENCIAS SOCIALES (CON ORIENTACIÓN AL ESTUDIO DE CONFLICTOS Y MOVIMIENTOS SOCIALES)**
 

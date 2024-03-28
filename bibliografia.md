@@ -99,7 +99,7 @@ lecturas](https://docs.google.com/spreadsheets/d/1daRYQMJXmObIAJEE3GKJkB89YuvCS2
 
 -   Donig, S., Eckl, M., Gassner, S., & Rehbein, M. (2023). Web archive
     analytics: Blind spots and silences in distant readings of the
-    archived web. Digital Scholarship in the Humanities, fqad014
+    archived web. Digital Scholarship in the Humanities
     ([link](https://doi.org/10.1093/llc/fqad014 "Web archive analytics")).
 
 -   Melo, Jairo (2017) Lectura distante, fragmentada y colaborativa en
@@ -114,29 +114,14 @@ lecturas](https://docs.google.com/spreadsheets/d/1daRYQMJXmObIAJEE3GKJkB89YuvCS2
 -   Mueller, Martin (2012) Scalable Reading. *Scalablereading*
     ([link](https://scalablereading.northwestern.edu/?page_id=22 "Scalable Reading")).
 
--   Silge, Julia & Robinson, David (2017) *Text mining with r: a tidy
-    approach*. O’Reilly Media,
-    Inc. ([link](https://www.tidytextmining.com/ "Text mining with r")).
-
 ## Unidad V
 
 ### Obligatoria
 
--   Nieto, Agustín (2021) Intersecciones entre historia digital e
-    historia social: un ejercicio de lectura distante sobre la
-    conflictividad marítima en la historia argentina reciente.
-    *Drassana*, 28, 122–142
-    ([link](https://doi.org/10.51829/Drassana.28.650 "Intersecciones entre historia digital e historia social")).
+-   Moretti, Franco (2023) Ver y no ver. Sobre la visualización de los
+    datos en las disciplinas humanísticas. *Falso movimiento*, 65-101
+    ([link](https://doi.org/10.51829/Drassana.28.650 "Ver y no ver")).
 
 -   Rosati, German (2020) La visualización de datos es trabajo esencial.
     Factor~data (blog), *Medium*
-    ([link](https://medium.com/factor-data/la-visualizaci%C3%B3n-de-datos-es-trabajo-esencial-ea7acc20b5d3 "La visualización de datos es trabajo esencial"))
-
--   Schwandt, Silke (2019) Métodos digitales para la semántica
-    histórica. Tras el rastro de los conceptos en corpus digitales.
-    *Conceptos históricos*, 8, 5, 160-196
-    ([link](https://revistasacademicas.unsam.edu.ar/index.php/conhist/article/download/79/63/125 "Métodos digitales para la semántica histórica")).
-
--   Wickham, Hadley (2016) *ggplot2: Elegant graphics for data
-    analysis*. Springer-Verlag New York
-    ([link](https://github.com/agusnieto77/Sem-UBA/raw/master/bibliograf%C3%ADa/Hadley%20Wickham%20-%20ggplot2_%20Elegant%20Graphics%20for%20Data%20Analysis.pdf "ggplot2")).
+    ([link](https://medium.com/factor-data/la-visualizaci%C3%B3n-de-datos-es-trabajo-esencial-ea7acc20b5d3 "La visualización de datos es trabajo esencial")).
