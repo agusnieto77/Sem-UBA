@@ -3,7 +3,7 @@
 Cargamos la base de datos ‘df.csv’ con la función read.csv() y le
 asignamos (&lt;-) el nombre ‘df’ en el entorno de trabajo de R.
 
-    df <- read.csv('https://observatoriodeconflictividad.org/df.csv')
+    df <- read.csv('https://raw.githubusercontent.com/agusnieto77/Sem-UBA/master/datos/df.csv')
     str(df)
 
     ## 'data.frame':    20 obs. of  8 variables:
@@ -57,11 +57,11 @@ Ahora actualizamos los datos de la columna ‘edad’ a la fecha de hoy
     head(df_date)
 
     ##    apellido nombre sexo edad nacionalidad fecha_nacimiento edad_actual
-    ## 1    García   Juan    M   21          arg       1981-05-01          41
-    ## 2 Rodríguez  Pedro    M   22          arg       1982-04-02          40
-    ## 3     Pérez  Juana    F   23          chi       1983-03-03          39
-    ## 4    García  María    X   24          bol       1984-02-04          38
-    ## 5  González  Marta    F   25          arg       1985-01-05          37
-    ## 6    García   Juan    M   26          arg       1986-11-06          35
+    ## 1    García   Juan    M   21          arg       1981-05-01          42
+    ## 2 Rodríguez  Pedro    M   22          arg       1982-04-02          41
+    ## 3     Pérez  Juana    F   23          chi       1983-03-03          41
+    ## 4    García  María    X   24          bol       1984-02-04          40
+    ## 5  González  Marta    F   25          arg       1985-01-05          39
+    ## 6    García   Juan    M   26          arg       1986-11-06          37
 
 ###### Corra el código en Google Colab desde este [link](https://colab.research.google.com/drive/1OLelYB7NYQIm3ZmFxdRoJknVrzsnZfGv?usp=sharing "Google Colab").
