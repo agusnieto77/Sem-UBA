@@ -23,7 +23,7 @@ Link a RStudio Cloud [aquí](https://login.rstudio.cloud/register?redirect=https
 
 ## Correr R en Colab
 
-[r_colab](https://colab.to/r)
+[r_colab](https://colab.research.google.com/notebook#create=true&language=r)
 
 ## Guías rápidas de funciones
 
