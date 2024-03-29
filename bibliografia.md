@@ -32,13 +32,13 @@ lecturas](https://docs.google.com/spreadsheets/d/1daRYQMJXmObIAJEE3GKJkB89YuvCS2
 -   Albrieu, Ramiro & Palazzo, Gabriel (2020) Categorización de
     conflictos sociales en el ámbito de los recursos naturales: Un
     estudio de las actividades extractivas mediante la minería de
-    textos. Revista CEPAL, 131, 29–59
+    textos. *Revista CEPAL*, 131, 29–59
     ([link](https://repositorio.cepal.org/bitstream/handle/11362/45952/RVE131_Albrieu.pdf?sequence=1&isAllowed=y "Categorización de conflictos sociales en el ámbito de los recursos naturales")).
 
 -   Escobar, M., Gil Moreno, E., & Calvo López, C. (2022). Análisis de
     la dinámica, la estructura y el contenido de los mensajes de
-    Twitter: violencia sexual en \#Cuéntalo. Empiria. Revista De
-    metodología De Ciencias Sociales, (53), 89–119)
+    Twitter: violencia sexual en \#Cuéntalo. *Empiria. Revista De
+    metodología De Ciencias Sociales*, (53), 89–119)
     ([link](https://revistas.uned.es/index.php/empiria/article/view/32614/25534 "Análisis de la dinámica, la estructura y el contenido de los mensajes de Twitter")).
 
 -   Franzosi, Roberto (2004) *From words to numbers*, selección
@@ -46,7 +46,7 @@ lecturas](https://docs.google.com/spreadsheets/d/1daRYQMJXmObIAJEE3GKJkB89YuvCS2
     ([link](https://github.com/agusnieto77/Sem-UBA/raw/master/bibliograf%C3%ADa/franzosi.pdf "From words to numbers")).
 
 -   Franzosi, Roberto (2020) What’s in a text? Bridging the gap between
-    quality and quantity in the digital era. Quality & Quantity, 1-28
+    quality and quantity in the digital era. *Quality & Quantity*, 1-28
     ([link](https://github.com/agusnieto77/Sem-UBA/raw/master/bibliograf%C3%ADa/r_franzosi.pdf "What's in a text?")).
 
 -   Nieto, Agustín, Silvana Ferreyra y Emiliano Calomarde (2022) La
@@ -102,7 +102,7 @@ lecturas](https://docs.google.com/spreadsheets/d/1daRYQMJXmObIAJEE3GKJkB89YuvCS2
     ([link](https://www.scielo.org.mx/pdf/rz/v38n149/2448-7554-rz-38-149-00169.pdf "Lectura distante, fragmentada y colaborativa en el archivo infinito")).
 
 -   Moretti, Franco (2015) El matadero de la literatura. *Lectura
-    distant*e, FCE, Buenos Aires
+    distante*, FCE, Buenos Aires
     ([link](https://github.com/agusnieto77/Sem-UBA/raw/master/bibliograf%C3%ADa/Moretti%20-%20El%20matadero%20de%20la%20literatura%20III.pdf "El matadero de la literatura")).
 
 -   Mueller, Martin (2012) Scalable Reading. *Scalablereading*

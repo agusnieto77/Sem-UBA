@@ -17,7 +17,7 @@ Profesor a cargo: Agustín Santella y Agustín Nieto
 
 Carga horaria: 32
 
-Período: abril -- mayo
+Período: abril - mayo
 
 Número de encuentros: 8
 
