@@ -2,3 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
+.gitignore
+Sem-UBA.Rproj
+presentaciones__/
+presentaciones__/borradores/
+interno_AS_AN/
