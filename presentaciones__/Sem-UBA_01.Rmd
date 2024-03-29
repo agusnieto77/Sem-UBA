@@ -255,7 +255,7 @@ Para el análisis de eventos de protesta podemos hacer uso de tres grandes enfoq
 
 </div>
 
-![](D:/Google_Drive_ok/R/GITHUB/Sem-UNComa/images/bag.png){width=45%}
+![](D:/Google_Drive_ok/R/GITHUB/Sem-UBA/images/bag.png){width=45%}
 
 # Hacia un laboratorio de análisis computacional de la conflictividad social
 
