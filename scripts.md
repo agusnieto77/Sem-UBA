@@ -1,0 +1,11 @@
+# Scripts
+
+## Unidad I
+
+-   Introducción a las funciones básicas
+    ([script](https://drive.google.com/file/d/15j5o5GyAogui3EMxT4UK1PuMhJh9P_rz/view?usp=sharing "funciones básicas"))
+
+-   Introducción a la manipulación de marcos de datos
+    ([script](https://drive.google.com/file/d/1wtjvV4G4TWj9ZJSFzSc2c2juxHXZkGj4/view?usp=sharing "manipular"))
+
+## [Acceso al repositorio de script unidad por unidad](https://github.com/agusnieto77/Material-Sem-UBA/tree/master/scripts)
