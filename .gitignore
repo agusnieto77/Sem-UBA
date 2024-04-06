@@ -1,8 +1,10 @@
+.gitignore
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
-.gitignore
+*.docx
+*.tmp
 Sem-UBA.Rproj
 presentaciones__/
 presentaciones__/borradores/
