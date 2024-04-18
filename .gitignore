@@ -5,6 +5,7 @@
 .Ruserdata
 *.docx
 *.tmp
+svo.rds
 Sem-UBA.Rproj
 presentaciones__/
 presentaciones__/borradores/
