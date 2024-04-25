@@ -1,0 +1,10 @@
+ID: 111 | fecha de la nota: 1850-03-14 | fecha de los arribos: 1850-03-12 | Pailebot nacional Carlitos, de 5 toneladas, patron J. Cardenas, de la Colonia ayer, en lastre; al patron.
+ID: 111 | fecha de la nota: 1850-03-14 | fecha de los arribos: 1850-03-12 | Queche n. Fortuna, de 9 tns. p. L. Falcon, del Rosario el 20, con 4,000 sandías; al patron.
+ID: 111 | fecha de la nota: 1850-03-14 | fecha de los arribos: 1850-03-12 | Ballenera n. San Martin, de 5 tas. p. A. Durrien, de Paisandú el 7, con lastro; á Rousse.
+ID: 111 | fecha de la nota: 1850-03-14 | fecha de los arribos: 1850-03-12 | Goleta correntina Africa, de 61 tns. p. N. Moises, de Corrientes el 25 del pasado, con 1,312 cueros vacunos secos, 13 sacos cerda, 53 docenas cueros nutria, 184 tirantes; & Llavallol.
+ID: 111 | fecha de la nota: 1850-03-14 | fecha de los arribos: 1850-03-12 | Goleta n. Pura y Limpin, de 35 tns. p. B. Olivary, de la Victoria el 2, ou 50 fardos laua, 148 cueros vacunos, 11 y media docenas cueros lanares, 126 arrobas lana, 14 id. cerda, 1,160 astas, 19 arrobas sebo, 70 idem jabon; al patron.
+ID: 111 | fecha de la nota: 1850-03-14 | fecha de los arribos: 1850-03-12 | Zumaca n. Cármen, de 25 tns, p. M. Solecio, del Rosario el 7, con 118 chiguas lana, 575 cueros vacunos, 60 docenas idem lanares; á F. Berdier.
+ID: 111 | fecha de la nota: 1850-03-14 | fecha de los arribos: 1850-03-12 | Pailebot n. Santa Rosa, de 25 tns. p. J. Laguna, del Paraná el 1, con 100 fanegas cal, 115 cueros vacunos secos; Rams y Rubert.
+ID: 111 | fecha de la nota: 1850-03-14 | fecha de los arribos: 1850-03-12 | Chalana n. Cármen, de 6 tns, p. Antonio Paliano, de San Salvador el 7, con 15 carretadas leña; al patron.
+ID: 111 | fecha de la nota: 1850-03-14 | fecha de los arribos: 1850-03-12 | Bergantin ingles Ada, de 213 tns, capitan J. Amy, de Cádiz el 8 de Enero; á Delisle y hermanos- los mismos, 153 y media lastras sal.
+ID: 111 | fecha de la nota: 1850-03-14 | fecha de los arribos: 1850-03-12 | Goleta inglesa Queen of the West, de 159 tns, cap. S. Fregarthem, de Lisboa el 24 de Enero; á Santamaría, Llambí y Cambaceres-á los mismos, 298 moyes sal, GO esteras.
