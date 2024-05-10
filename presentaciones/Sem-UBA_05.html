@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
-  <title>Sem-UBA_04.knit</title>
+  <title>Sem-UBA_05.knit</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -1779,22 +1779,22 @@ document.addEventListener('DOMContentLoaded', function(e) {
 <p><font size="5">Introducción a la programación en R para el análisis
 de datos en ciencias sociales (con orientación al estudio de conflictos
 y movimientos sociales)</font></p>
-<p><font size="6">Quinto encuentro - Web Scraping en páginas dinámicas
-(Parte II) </font></p>
+<p><font size="6">Sexto encuentro - Limpieza y normalización del corpus
+que logramos scrapear </font></p>
 <div style="margin-top:25px;">
 
 </div>
 <p><font size="5">Dr. Agustín Santella (IIGG-UBA/CONICET)</font></p>
 <p><font size="5">Dr. Agustín Nieto (INHUS-CONICET/UNMdP)</font></p>
-<p><font size="4">3 de mayo de 2024</font></p>
+<p><font size="4">10 de mayo de 2024</font></p>
 <div style="margin-top:15px;">
 
 </div>
 </section>
 
-<section id="qué-es-una-página-estática" class="title-slide slide level1" style="margin-top: 10px;">
-<h1 style="margin-top: 10px;"><span style="color: skyblue; font-size: 58px;"><b>¿Qué es una página
-estática?</span></b></h1>
+<section id="qué-es-la-minería-de-texto-introducción-a-conceptos-clave" class="title-slide slide level1" style="margin-top: 30px;">
+<h1 style="margin-top: 30px;"><span style="color: skyblue; font-size: 58px;"><b>¿Qué es la minería de texto?
+Introducción a conceptos clave</span></b></h1>
 <style>
 body {
 background-image: url(data:image/png;base64,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),
@@ -1804,284 +1804,127 @@ background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
 background-position: 93% 95%, 93% 3%, 7% 3%, 7% 95%;
 }
 </style>
-<p style="font-size: 23px; text-align: justify;">
-Las páginas web dinámicas basan su comportamiento y funcionalidad en dos
-tipos de programación: <b>front-end</b> y <b>back-end</b>.
-<em>JavaScript</em> es el lenguaje de programación que se usa para las
-instrucciones del lado del cliente. Estas instrucciones se ejecutan en
-el navegador. Mientras que las instrucciones que se ejecutan del lado
-del servidor son instrucciones escritas en lenguajes de programación
-como <em>PHP</em> y que son ejecutadas para crear lo que se ha
-solicitado en interacción con la página.
+<p style="font-size: 26px; text-align: justify;">
+La minería de texto es el proceso de analizar grandes cantidades de
+texto para descubrir patrones, tendencias y relaciones significativas
+que puedan ser útiles para la extracción de información y el análisis de
+datos.
 </p>
-<p style="font-size: 23px; text-align: justify;">
-Una vez ejecutadas las instrucciones en el servidor, un nuevo
-<strong>HTTP</strong> response se envía al navegador para mostrar lo que
-se ha solicitado. El resultado final es el mismo que en un sitio web
-estático: una página <strong>HTML</strong> que el usuario ve desde el
-navegador.
-</p>
-<p style="font-size: 23px; text-align: justify;">
-Más allá de esta definición, no existe una frontera clara entre lo que
-es contenido estático y dinámico. Debido a la evolución actual de la web
-se podría decir que es todo el contenido es dinámico por la manera en
-que se crea. La proliferación de herramientas de publicación y de
-autoría de contenidos tales como los blogs convierten en dinámicos
-contenidos aparentemente estáticos.
-</p>
-<div style="font-size: 20px; color: skyblue;">
-<blockquote>
-<p><b> <a href="https://es.wikipedia.org/wiki/P%C3%A1gina_web_din%C3%A1mica">Más
-info sobre las páginas dinámicas</a> </b></p>
-</blockquote>
-</div>
-</section>
-
-<section id="introducción-a-selenium" class="title-slide slide level1" style="color: darkred; font-size: 50px; margin-top: 15px;">
-<h1 style="color: darkred; font-size: 50px; margin-top: 15px;"><b>Introducción
-a Selenium</b></h1>
-<p style="font-size: 32px; text-align: justify; margin-top: 35px;">
-<em>Selenium</em> es un entorno de pruebas que se utiliza para comprobar
-si el software que se está desarrollando funciona correctamente. Esta
-herramienta permite: grabar, editar y depurar casos de pruebas que se
-pueden automatizar.
-</p>
-<p style="font-size: 32px; text-align: justify; margin-top: 35px;">
-WebDriver es la interfaz básica para simular las interacciones del
-usuario con cualquier navegador, ya sea Firefox, Chrome, Edge, Safari o
-Internet Explorer. Desde 2018, la API es un estándar W3C oficial.
-</p>
-<div style="font-size: 20px; color: skyblue; margin-top: 75px;">
-<blockquote>
-<p><b> <a href="https://es.wikipedia.org/wiki/Selenium">Más info sobre
-Selenium</a> </b></p>
-</blockquote>
-</div>
-</section>
-
-<section>
-<section id="introducción-al-paquete-rselenium" class="title-slide slide level1" style="color: darkred; font-size: 50px; margin-top: 15px;">
-<h1 style="color: darkred; font-size: 50px; margin-top: 15px;"><b>Introducción
-al paquete <code>{RSelenium}</code></b></h1>
-<p style="font-size: 25px; text-align: justify; margin-top: 25px;">
-{RSelenium} está diseñado para facilitar la conexión a un servidor
-<code>Selenium</code> o a un servidor <code>Selenium remoto</code>.
-{RSelenium} permite la conexión desde el entorno R a la API de
-<code>Selenium Webdriver</code>. <em>Selenium</em> es un proyecto que se
-centra en la automatización de los navegadores web.
-</p>
-<p style="font-size: 25px; text-align: justify;">
-{RSelenium} es imprescindible cuando nos enfrentamos a sitios web que
-son difíciles de rastrear porque extraen datos de forma dinámica de las
-bases de datos mediante <em>JavaScript</em> y <em>jQuery</em>. Por
-ejemplo, en sitios de redes sociales comunes como <em>LinkedIn</em> o
-<em>Facebook</em>, a medida que se desplaza hacia abajo en la página, se
-carga contenido nuevo y la URL no cambia. Estos sitios web son mucho más
-difíciles de raspar. Una tarea de raspado fácil es cuando podemos
-ajustar la URL para cargar una nueva página en función de algún patrón
-sistemático.
-</p>
-<div style="font-size: 20px; color: skyblue;">
-<blockquote>
-<p><b> <a href="https://docs.ropensci.org/RSelenium/">Más info sobre el
-paquete {RSelenium}</a> </b></p>
-</blockquote>
-</div>
-</section>
-<section id="función-rsdriver" class="slide level2" style="color: darkred; margin-top: 5px;">
-<h2 style="color: darkred; margin-top: 5px;"><b>Función
-<code>rsDriver()</code></b></h2>
-<p style="font-size: 23px; text-align: justify; color: darkorange; margin-top: 15px;">
-La función rsDriver es una envoltura para la función selenium del
-paquete wdman. Permite al usuario gestionar los binarios utilizados para
-ejecutar un servidor Selenium. Devuelve un entorno que contiene un
-“cliente” y un “servidor”.
-</p>
-<p style="font-size: 24px; text-align: justify; color: darkorange; margin-top: 15px;">
-Por defecto ejecuta un navegador Chrome. Se pueden seleccionar otros
-navegadores (firefox, PhantomJS, Internet Explorer (Win)) utilizando el
-argumento browser.
-</p>
-<p style="font-size: 24px; text-align: justify; color: darkorange; margin-top: 15px;">
-El puerto por defecto en el que se ejecuta un Selenium Server usando la
-función rsDriver es port = 4567L.
-</p>
-<p style="font-size: 24px; text-align: justify; color: darkorange; margin-top: 15px;">
-El siguiente paso es navegar hacia una dirección url con la instancia de
-interacción de cliente selenium llamada <code>navigate()</code>.
-</p>
-<p style="font-size: 24px; text-align: justify; color: darkorange; margin-top: 15px;">
-Una vez que la página se cargó podemos obtener su contenido con la
-función <code>getPageSource()</code>.
-</p>
-<div style="font-size: 20px; color: skyblue; margin-top: 50px;">
-<blockquote>
-<p><b> <a href="https://docs.ropensci.org/RSelenium/reference/rsDriver.html">Más
-info sobre la función <code>rsDriver()</code></a> </b></p>
-</blockquote>
-</div>
-</section>
-<section id="función-para-extraer-nodos" class="slide level2" style="color: darkred; margin-top: 60px;">
-<h2 style="color: darkred; margin-top: 60px;"><b>Función para extraer
-nodos</b></h2>
-<p style="font-size: 36px; text-align: justify; color: darkorange; margin-top: 30px;">
-Las funciones <code>findElement()</code> y <code>findElements()</code>
-permiten extraer con facilidad fragmentos de documentos HTML mediante
-los selectores <code>XPath</code> y <code>CSS</code>. El elemento
-ubicado se devolverá como un objeto de la clase “wElement”.
-</p>
-<div style="font-size: 20px; color: skyblue; margin-top: 50px;">
-<blockquote>
-<p><b> <a href="https://rdrr.io/cran/seleniumPipes/man/findElement.html">Más info
-sobre la función <code>findElements()</code></a> </b></p>
-</blockquote>
-</div>
-</section>
-<section id="función-para-extraer-texto" class="slide level2" style="color: darkred; margin-top: 60px; font-size: 50px;">
-<h2 style="color: darkred; margin-top: 60px; font-size: 50px;"><b>Función
-para extraer texto</b></h2>
-<p style="font-size: 36px; text-align: justify; color: darkorange; margin-top: 30px;">
-La función <code>getElementText()</code> devuelve el texto visible del
-elemento que deseamos obtener en formato texto.
-</p>
-<div style="font-size: 20px; color: skyblue; margin-top: 50px;">
-<blockquote>
-<p><b> <a href="https://rdrr.io/cran/seleniumPipes/man/getElementText.html">Más
-info sobre la función <code>getElementText()</code></a> </b></p>
-</blockquote>
-</div>
-</section>
-<section id="función-para-extraer-atributos-de-elementos-html" class="slide level2" style="color: darkred; margin-top: 60px; font-size: 45px;">
-<h2 style="color: darkred; margin-top: 60px; font-size: 45px;"><b>Función
-para extraer atributos de elementos HTML</b></h2>
-<p style="font-size: 36px; text-align: justify; color: darkorange; margin-top: 35px;">
-<code>getElementAttribute()</code> obtiene el valor del atributo de un
-elemento como, por ejemplo, una dirección URL.
-</p>
-<div style="font-size: 20px; color: skyblue; margin-top: 50px;">
-<blockquote>
-<p><b> <a href="https://rdrr.io/cran/seleniumPipes/man/getElementAttribute.html">Más
-info sobre la función <code>getElementAttribute()</code></a> </b></p>
-</blockquote>
-</div>
-</section></section>
-<section id="página-dinámica-vs-página-estática" class="title-slide slide level1" style="margin-top: 25px;">
-<h1 style="margin-top: 25px;"><span style="color: skyblue; font-size: 58px;"><b>Página dinámica vs Página
-estática</span></b></h1>
-<p style="font-size: 28px; text-align: justify;">
-Página web estática: una página web (página HTML) que contiene la misma
-información para todos los usuarios. Aunque puede actualizarse
-periódicamente, no cambia con cada recuperación de usuario. Notarán que
-al interaccionar con la página para acceder a más datos se producen
-cambios en la dirección URL
-</p>
-<p style="font-size: 28px; text-align: justify;">
-Página web dinámica: una página web que proporciona contenido
-personalizado para el usuario en función de los resultados de una
-búsqueda o alguna otra solicitud. También conocido como <strong>HTML
-dinámico</strong> o <strong>contenido dinámico</strong>, el término
-<strong>dinámico</strong> se utiliza para referirse a páginas web
-interactivas creadas para cada usuario. Notarán que al interaccionar con
-la página para acceder a más datos <strong>no</strong> se producen
-cambios en la dirección URL.
+<p style="font-size: 26px; text-align: justify;">
+Algunas de las tareas comunes en la minería de texto incluyen la
+clasificación de documentos, el análisis de sentimientos, la extracción
+de información, el resumen automático, la traducción automática, el
+etiquetado de temas y el descubrimiento de conocimiento.
 </p>
 </section>
 
 <section>
-<section id="otras-funciones-de-rselenium" class="title-slide slide level1" style="color: skyblue; font-size: 80px; margin-top: 95px;">
-<h1 style="color: skyblue; font-size: 80px; margin-top: 95px;"><b>Otras
-funciones de {RSelenium}</b></h1>
-
-</section>
-<section id="para-navegar" class="slide level2" style="color: orange; font-size: 50px; margin-top: 35px;">
-<h2 style="color: orange; font-size: 50px; margin-top: 35px;"><b>Para
-navegar</b></h2>
-<p style="font-size: 32px; text-align: justify; margin-top: 35px; color: purple;">
-<strong>goBack()</strong>: Equivalente a presionar el botón
-<strong>&lt;-</strong> en el navegador.
-</p>
-<p style="font-size: 32px; text-align: justify; margin-top: 35px; color: purple;">
-<strong>goForward()</strong>: Equivalente a presionar el botón
-<strong>-&gt;</strong> en el navegador.
-</p>
-<p style="font-size: 32px; text-align: justify; margin-top: 35px; color: purple;">
-<strong>refresh()</strong>: recargar la página actual.
-</p>
-<p style="font-size: 32px; text-align: justify; margin-top: 35px; color: purple;">
-<strong>maxWindowSize()</strong>: establece el tamaño de la ventana del
-navegador al máximo. De forma predeterminada, el tamaño de la ventana
-del navegador es pequeño y es posible que algunos elementos del sitio
-web al que navega no estén disponibles de inmediato.
+<section id="preprocesamiento-de-texto" class="title-slide slide level1" style="color: darkred; font-size: 50px; margin-top: 30px;">
+<h1 style="color: darkred; font-size: 50px; margin-top: 30px;"><b>Preprocesamiento
+de texto</b></h1>
+<p style="font-size: 32px; text-align: justify; margin-top: 35px;">
+El preprocesamiento de texto es una etapa fundamental en el análisis de
+datos textuales que implica la limpieza y transformación del texto crudo
+en un formato adecuado y estandarizado para su posterior análisis y
+procesamiento. Aunque los datos textuales pueden ser una fuente rica de
+información, su naturaleza no estructurada y variada puede presentar
+desafíos significativos para su análisis automatizado. El
+preprocesamiento de texto busca abordar estos desafíos mediante la
+aplicación de una serie de técnicas y procedimientos diseñados para
+mejorar la calidad y la utilidad de los datos textuales.
 </p>
 </section>
-<section id="para-raspar" class="slide level2" style="color: orange; font-size: 50px; margin-top: 65px;">
-<h2 style="color: orange; font-size: 50px; margin-top: 65px;"><b>Para
-raspar</b></h2>
-<p style="font-size: 32px; text-align: justify; margin-top: 35px; color: purple;">
-<strong>getCurrentUrl()</strong>: Recuperar la URL de la página actual.
-</p>
-<p style="font-size: 32px; text-align: justify; margin-top: 35px; color: purple;">
-<strong>getPageSource()[[1]]</strong>: Obtener la fuente de la página
-actual. Este método combinado con <code>rvest</code> es lo que hace
-posible extraer páginas web dinámicas. El documento xml devuelto por el
-método se puede leer usando rvest::read_html(). Este método devuelve un
-objeto de <code>lista</code>, esa es la razón detrás de [[1]].
+<section id="eliminación-de-caracteres-especiales-y-puntuación" class="slide level2" style="color: darkred; margin-top: 60px;">
+<h2 style="color: darkred; margin-top: 60px;"><b>Eliminación de
+caracteres especiales y puntuación: </b></h2>
+<p style="font-size: 36px; text-align: justify; color: darkorange; margin-top: 15px;">
+El texto crudo a menudo contiene caracteres especiales, signos de
+puntuación y otros símbolos que no son relevantes para el análisis y
+pueden interferir con los algoritmos de procesamiento. Por lo tanto, una
+de las primeras tareas en el preprocesamiento es eliminar estos
+caracteres para limpiar el texto.
 </p>
 </section>
-<section id="cierre-y-reapertura" class="slide level2" style="color: orange; font-size: 55px; margin-top: 45px;">
-<h2 style="color: orange; font-size: 55px; margin-top: 45px;"><b>Cierre
-y reapertura</b></h2>
-<p style="font-size: 35px; text-align: justify; margin-top: 35px; color: purple;">
-<strong>close()</strong>: Cierra la sesión actual.
-</p>
-<p style="font-size: 35px; text-align: justify; margin-top: 35px; color: purple;">
-<strong>open()</strong>: para enviar una solicitud al servidor remoto y
-crear una instancia del navegador. Se usa este método cuando el
-navegador se cierra por alguna razón (por ejemplo, inactividad). Si ya
-ha iniciado el servidor Selenium, debe ejecutar esto en lugar de
-<code>rsDriver()</code> para volver a abrir el navegador.
+<section id="conversión-a-minúsculas" class="slide level2" style="color: darkred; margin-top: 60px;">
+<h2 style="color: darkred; margin-top: 60px;"><b>Conversión a
+minúsculas</b></h2>
+<p style="font-size: 36px; text-align: justify; color: darkorange; margin-top: 30px;">
+Para garantizar la consistencia y evitar la duplicación de palabras
+debido a diferencias de mayúsculas y minúsculas, es común convertir todo
+el texto a minúsculas durante el preprocesamiento. Esto asegura que las
+palabras se traten de manera uniforme independientemente de cómo estén
+escritas en el texto original.
 </p>
 </section>
-<section id="para-interactuar-con-la-página" class="slide level2" style="color: orange; font-size: 50px; margin-top: 22px;">
-<h2 style="color: orange; font-size: 50px; margin-top: 22px;"><b>Para
-interactuar con la página</b></h2>
-<p style="font-size: 32px; text-align: justify; margin-top: 35px; color: purple;">
-<strong>sendKeysToElement()</strong>: para envía una secuencia de
-pulsaciones de teclas a un elemento. Las pulsaciones de teclas se envían
-como una lista. El texto sin formato se ingresa como un elemento sin
-nombre de la lista. Las entradas del teclado se definen en
-<strong>selKeys</strong> y deben enumerarse con el nombre
-<strong>key</strong>.
+<section id="eliminación-de-números" class="slide level2" style="color: darkred; margin-top: 60px; font-size: 60px;">
+<h2 style="color: darkred; margin-top: 60px; font-size: 60px;"><b>Eliminación
+de números</b></h2>
+<p style="font-size: 36px; text-align: justify; color: darkorange; margin-top: 36px;">
+: En muchos casos, los números no aportan información semántica
+relevante para el análisis de texto y pueden ser eliminados durante el
+preprocesamiento para simplificar el texto y reducir la complejidad.
 </p>
-<p style="font-size: 32px; text-align: justify; margin-top: 35px; color: purple;">
-<strong>clearElement()</strong>: para borrar el valor de un elemento
-TEXTAREA o INPUT de texto.
+</section>
+<section id="tokenización" class="slide level2" style="color: darkred; margin-top: 60px; font-size: 60px;">
+<h2 style="color: darkred; margin-top: 60px; font-size: 60px;"><b>Tokenización</b></h2>
+<p style="font-size: 36px; text-align: justify; color: darkorange; margin-top: 36px;">
+La tokenización es el proceso de dividir el texto en unidades más
+pequeñas, llamadas tokens, que pueden ser palabras individuales, partes
+de palabras o incluso caracteres. Este paso es crucial para preparar el
+texto para análisis posteriores, ya que permite identificar las unidades
+básicas de significado en el texto.
 </p>
+</section>
+<section id="stopwords" class="slide level2" style="color: darkred; margin-top: 60px; font-size: 60px;">
+<h2 style="color: darkred; margin-top: 60px; font-size: 60px;"><b>Stopwords</b></h2>
+<p style="font-size: 36px; text-align: justify; color: darkorange; margin-top: 36px;">
+Las palabras vacías (stopwords), como “el”, “de”, “en” y otras palabras
+comunes que no aportan significado semántico al texto, suelen ser
+eliminadas durante el preprocesamiento para reducir el ruido y mejorar
+la precisión del análisis.
+</p>
+</section>
+<section id="normalización-de-término" class="slide level2" style="color: orange; font-size: 50px; margin-top: 35px;">
+<h2 style="color: orange; font-size: 50px; margin-top: 35px;"><b>Normalización
+de término</b></h2>
 <p style="font-size: 32px; text-align: justify; margin-top: 35px; color: purple;">
-<strong>clickElement()</strong>: para hacer clic en un elemento. Puede
-hacer clic en enlaces, casillas de verificación, listas desplegables,
-etc.
+La normalización de términos implica la reducción de las palabras a su
+forma base, o lema, para agrupar palabras que tienen el mismo
+significado pero diferentes formas. Esto incluye la lematización y la
+derivación de palabras (stemming), que son técnicas utilizadas para
+simplificar el texto y mejorar la coherencia en el análisis.
+</p>
+</section>
+<section id="diccionarios-y-bolsas-de-palabras" class="slide level2" style="color: orange; font-size: 50px; margin-top: 35px;">
+<h2 style="color: orange; font-size: 50px; margin-top: 35px;"><b>Diccionarios
+y Bolsas de palabras</b></h2>
+<p style="font-size: 32px; text-align: justify; margin-top: 35px; color: purple;">
+Los diccionarios y bolsas de palabras son herramientas utilizadas en la
+minería de texto para representar documentos como vectores de términos.
+Los diccionarios contienen términos únicos y sus frecuencias, mientras
+que las bolsas de palabras contienen información binaria sobre la
+presencia o ausencia de términos en un documento.
+</p>
+</section>
+<section id="etiquetado-de-partes-del-discurso-pos" class="slide level2" style="color: orange; font-size: 50px; margin-top: 65px;">
+<h2 style="color: orange; font-size: 50px; margin-top: 65px;"><b>Etiquetado
+de Partes del Discurso (POS)</b></h2>
+<p style="font-size: 32px; text-align: justify; margin-top: 36px; color: purple;">
+El etiquetado de partes del discurso es el proceso de asignar etiquetas
+gramaticales a cada palabra en un texto, como sustantivos, verbos,
+adjetivos, etc. Esto ayuda a comprender la estructura gramatical del
+texto.
+</p>
+</section>
+<section id="reconocimiento-de-entidades-nombradas-ner" class="slide level2" style="color: orange; font-size: 55px; margin-top: 45px;">
+<h2 style="color: orange; font-size: 55px; margin-top: 45px;"><b>Reconocimiento
+de Entidades Nombradas (NER)</b></h2>
+<p style="font-size: 35px; text-align: justify; margin-top: 36px; color: purple;">
+El reconocimiento de entidades nombradas es una técnica utilizada para
+identificar y clasificar entidades importantes en un texto, como
+personas, lugares, organizaciones, fechas, etc.
 </p>
 </section></section>
-<section id="nueva-función-de-rvest-read_html_live" class="title-slide slide level1" style="color: skyblue; font-size: 55px; margin-top: 20px;">
-<h1 style="color: skyblue; font-size: 55px; margin-top: 20px;"><b>Nueva
-función de {rvest}: read_html_live()</b></h1>
-<p style="font-size: 30px; text-align: justify; margin-top: 35px; color: purple;">
-<code>read_html()</code> opera sobre el código fuente HTML descargado
-del servidor. Esto funciona para la mayoría de los sitios web, pero
-puede fallar si el sitio usa javascript para generar HTML.
-<code>read_html_live()</code> proporciona una interfaz alternativa que
-ejecuta un navegador web activo (Chrome) en segundo plano. Esto le
-permite acceder a elementos de la página HTML que se generan
-dinámicamente mediante javascript e interactuar con la página en vivo
-haciendo clic en botones o escribiendo formularios.
-</p>
-<p style="font-size: 30px; text-align: justify; margin-top: 35px; color: purple;">
-Detrás de escena, esta función utiliza el paquete <code>chromote</code>
-, que requiere que tengas una copia de Google Chrome instalada en tu
-máquina.
-</p>
-</section>
     </div>
   </div>
 
